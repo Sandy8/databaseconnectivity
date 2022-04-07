@@ -1,0 +1,18 @@
+extend layout 
+
+block content
+    .container.bookinfo
+        .imageinfo
+            img(src=currentBook.img)
+        .information
+            p Book name: 
+                span #{currentBook.name} 
+            p Author: 
+                span #{currentBook.author} 
+            p Price: $
+                span #{currentBook.price}
+            p Views: 
+                span #{currentBook.views}
+            p Description:
+                p   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum viverra bibendum. Integer id aliquam risus. Donec sit amet pretium mauris. Curabitur convallis faucibus purus, tristique fermentum odio ultrices ut. Suspendisse accumsan et est eu consectetur. Etiam feugiat at nunc eu cursus. Vivamus et pellentesque felis, nec dapibus ex. Morbi maximus lacus eget porttitor vestibulum. Morbi dictum nisl odio, ac gravida diam cursus vel.
+                |   Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce posuere ornare dolor, nec elementum diam bibendum at. Proin eu dignissim lectus. Pellentesque faucibus varius eleifend. Morbi non faucibus dolor. Integer non.

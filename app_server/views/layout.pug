@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+  body
+    nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse
+      .container
+        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarMain')
+          span.navbar-toggler-icon
+        a(href="/")
+          img.img-fluid.rounded.me-2(src='/images/bookhouse.png',style="width:40px")
+
+        #navbarMain.navbar-collapse.collapse
+          ul.navbar-nav
+            li.nav-item()
+              a.nav-link(href='/list',style="color:#efeaea") Books
+            li.nav-item
+              a.nav-link(href='/display',style="color:#efeaea") Display 
+            li.nav-item
+              a.nav-link(href='/about',style="color:#efeaea") About
+            
+    .container
+      block content
+      footer
+        .container
+          .footer
+            .col-12(style="text-align: center;padding-top: 10px;")
+              p.footer-content &copy; Indigo Book house (Sandhya Paghdar - 8719624)
+    
+    script(src='https://code.jquery.com/jquery-3.1.1.slim.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js')
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/fontawesome.min.js')

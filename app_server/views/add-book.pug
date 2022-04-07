@@ -1,0 +1,27 @@
+extend layout 
+
+block content
+    .container 
+        form(action="#" method="POST")
+            label(for='name') Name:
+            br
+            input#name(type='text' name='name' value='' required='')
+            br
+            label(for='author') Author:
+            br
+            input#ingredients(type='text' name='author' value='' required='')
+            br
+            label(for='price') Price:
+            br
+            input#price(type='number' name='price' value='' required='')
+            br
+            label(for='views') Views:
+            br
+            input#price(type='number' name='views' value='' required='')
+            br
+            label(for='image') Image:
+            br
+            input#bookimg(type='text' name='img' accept='image/*' required='')
+            br
+            br
+            input#submit(type='submit' name='Submit' value='Submit')

@@ -1,0 +1,163 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+body {
+  font-family: fantasy, Candara, sans-serif;
+  color: #ffffff;
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: fantasy, Candara, sans-serif;
+}
+.navbar {
+  background-color: #290916;
+  border-color: #000;
+  height: 70px;
+  font-size: 20px;
+}
+#navbarMain{
+  margin-left: 30px;
+}
+nav img {
+  margin: 0 10px;
+}
+footer {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: #290916;
+}
+footer p {
+  font-size: 10px;
+}
+.footer-content {
+  color: #fff;
+}
+.p-2.bd-highlight {
+  color: #000;
+}
+.aboutcontent {
+  margin:120px 0 20px 0;
+}
+dl {
+  color: #000;
+  overflow: hidden;
+}
+.row {
+  margin: 0px 0 70px 0;
+}
+.row img{
+  width: 100%;
+  margin: 20px 0;
+}
+.booklist > img{
+  width: 100%;
+}
+.bookimage:hover ~ .data{
+  font-weight: bolder;
+  font-size: 15px;
+}
+.views{
+  border: 1px solid #000;
+  padding: 5px;
+  margin: 5px 33%;
+  border-radius: 20px;
+}
+.booklist li {
+  color: #000;
+}
+ul.booklist{
+  list-style-type: none;
+}
+.data {
+  text-align: center;
+  margin-top: 5px;
+}
+h3{
+  margin-top: 50px;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.aboutcontent{
+  margin-bottom: 50px;
+}
+.p-2 img {
+  height: 290px;
+  margin-bottom: 40px;
+}
+.p-2{
+  margin-bottom: 50px;
+}
+li.buy {
+  border: 1px solid #000;
+  background-color: #0b5011;
+  color: #fff;
+  padding: 10px;
+  width: 25%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.buy:hover {
+  font-size: large;
+}
+.bar {
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: 25px;
+}
+p#addbook {
+  width: 100%;
+  text-align: right;
+}
+p a {
+  color: #290916;
+  font-weight: bold;
+  font-size: 18px;
+}
+p a:hover{
+  color: #290916;
+  text-decoration: underline;
+}
+label {
+  color: #000;
+  margin-top: 15px;
+}
+input {
+  font-family: fantasy, Candara, sans-serif;
+  margin-bottom: 25px;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 80%;
+}
+form {
+  margin: 100px 0 25px 0px;
+}
+input#submit {
+  background-color: #e3f1e4;
+}
+.bookinfo{
+  height: 400px;
+  width: 100%;
+}
+.imageinfo{
+  width: 50%;
+  padding: 25px 25px 0 0;
+  float: left;
+  overflow: hidden;
+}
+.information {
+  width: 50%;
+  padding: 31px 0 0 25px;
+  overflow: hidden;
+  color: #000;
+}
